@@ -3,31 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delivery Form</title>
+    <title>مَوج</title>
+    <link rel="stylesheet" href="stylesBD.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bitter:ital,wght@0,100..900;1,100..900&family=Mate:ital@0;1&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <title>Simple Map</title>
+
+
+
+
     <!-- prettier-ignore -->
     <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${
         c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-    ({key: "AIzaSyD1ClTm_ByJ1IyYZDOEL56hZY0PG12dxUQ", v: "weekly"});</script>
+    ({key: "AIzaSyAj-dpgnrMEMp-VVuGF_WudVRJBDFIuNmw", v: "weekly"});</script>
     <script>
         /**
          * @license
          * Copyright 2019 Google LLC. All Rights Reserved.
          * SPDX-License-Identifier: Apache-2.0
          */
+
+        // Initialize and add the map
         let map;
-
         async function initMap() {
+            // The location of Uluru
+            const position = { lat: -25.344, lng: 131.031 };
+            // Request needed libraries.
+            //@ts-ignore
             const { Map } = await google.maps.importLibrary("maps");
-
+            const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+            // The map, centered at Uluru
             map = new Map(document.getElementById("map"), {
-                center: { lat: -34.397, lng: 150.644 },
-                zoom: 8,
+                zoom: 4,
+                center: position,
+                mapId: "DEMO_MAP_ID",
+            });
+            // The marker, positioned at Uluru
+            const marker = new AdvancedMarkerElement({
+                map: map,
+                position: position,
+                title: "Uluru",
             });
         }
-
         initMap();
+
+
     </script>
     <style>
         /**
@@ -40,10 +61,13 @@
         * that contains the map.
         */
         #map {
-            height: 400px;
-            width: 400px;
-        }
+            height: 50vh;
+            width: 80vh;
+            position: relative;
+            z-index: 1; /* Ensure the map is above other elements */
+            background-color: transparent; /* Remove any blending effect */
 
+        }
         /*
         * Optional: Makes the sample page fill the window.
         */
@@ -53,102 +77,160 @@
             margin: 0;
             padding: 0;
         }
-    </style>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            height: 400px;
-            width: 890px;
-            height: 80%;
-        }
-        .delivery-info, .map-container, .extra-space {
-            padding: 10px;
-            border-radius: 8px;
-            background: #fff;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        }
 
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-        .input-field, select {
-            width: 90%;
-            padding: 10px;
-            margin: 10px 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        label {
-            margin: 11px;
-        }
-        .map-container {
-            height: 300px; /* Adjust based on your API */
-            background: #ddd;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .extra-space {
-            text-align: center;
-            padding: 20px;
-        }
+
     </style>
 </head>
+
 <body>
+<header>
 
-<div class="container">
+    <div class="header">
+        <div class="logo-section">
+            <div class="horizontal-line"></div>
+            <div class="logo">
+                <a href="homepage.html">
+                    <img src="images/logo.png" alt=" موج Logo" id="logo">
+                </a>
+            </div>
+            <div class="horizontal-line"></div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a class="link link-black login-btn" id="login-btn" href="login.html" >Log in</a></li>
+                <li><a class="button primary small signup-btn" href="signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-    <!-- Delivery Info Section -->
-    <div class="delivery-info">
-        <h2>Delivery Details</h2>
+<br >
+<br >
+<br >
 
-        <label>Full Name</label>
-        <input class="input-field" type="text" placeholder="John Doe">
-        <br>
-        <label>Phone Number</label>
-        <input class="input-field" type="tel" placeholder="+1 234 567 890">
-        <br>
-        <label>Delivery Address</label>
-        <input class="input-field" type="text" placeholder="123 Main St, City, Country">
-        <br>
-        <label>Postal Code</label>
-        <input class="input-field" type="text" placeholder="12345">
-        <br>
-        <label>Delivery Method</label>
-        <select class="input-field">
-            <option>Standard (3-5 days) - Free</option>
-            <option>Express (1-2 days) - $4.99</option>
-            <option>Same Day - $9.99</option>
-        </select>
+
+
+<main>
+    <div class="container">
+        <!-- Step Indicator -->
+        <div class="step-indicator">
+            <div class="step active">
+                <div class="circle">1</div>
+                <span>Delivery Info</span>
+            </div>
+            <div class="step">
+                <div class="circle">2</div>
+                <span>Select map</span>
+            </div>
+            <div class="step">
+                <div class="circle">3</div>
+                <span>Payment</span>
+            </div>
+            <div class="step">
+                <div class="circle">4</div>
+                <span>Confirmation</span>
+            </div>
+        </div>
+
+        <!-- Cart Section
+        delivery-section
+                          USED delivery-section-->
+
+        <div class="card" id="select-map" style="display: none;">
+            <h2>Select your location </h2><br>
+            <div id="map"></div>
+
+            <div class="button-container">
+                <button onclick="goToSection('delivery-info')">Back</button>
+
+                <button onclick="goToSection('payment-section')">Next Step</button>
+            </div>
+        </div>
+
+        <!-- Delivery Section
+                <div class="card" id="delivery-section" style="display: none;">
+                  USED CART SELECTION-->
+        <div class="card" id="delivery-info" >
+            <h2>Deliver Info</h2><br>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter your address">
+                </div>
+                <div class="form-group">
+                    <label for="tellNo">Phone number</label>
+                    <input type="text" id="tellNo" placeholder="+123 4567 7890">
+                </div>
+            </form>
+            <div class="button-container">
+               <!-- <button onclick="goToSection('cart-section')">Back</button>-->
+                <button onclick="goToSection('select-map')">Next Step</button>
+            </div>
+        </div>
+
+        <!-- Payment Section -->
+        <div class="card" id="payment-section" style="display: none;">
+            <h2>Payment</h2>
+            <form>
+                <div class="form-group">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" placeholder="Enter card number">
+                </div>
+                <div class="form-group">
+                    <label for="expiry">Expiry Date</label>
+                    <input type="text" id="expiry" placeholder="MM/YY">
+                </div>
+            </form>
+            <div class="button-container">
+                <button onclick="goToSection('select-map')">Back</button>
+                <button onclick="goToSection('confirmation-section')">Next Step</button>
+            </div>
+        </div>
+
+        <!-- Confirmation Section -->
+        <div class="card" id="confirmation-section" style="display: none;">
+            <h2>Confirmation</h2><br>
+            <p>Your order has been successfully placed!</p>
+            <div class="success"><br>
+                <h2>Order Confirmed!</h2>
+            </div>
+            <div class="button-container">
+                <button  style="width: 205px; height: 50px;" onclick="window.location.href='homebage2.html'">Back to Home Page</button><br>
+            </div>
+        </div>
     </div>
 
-    <!-- Map Section (Placeholder for API) -->
-    <div class="map">
-        <!-- <p>Map will be displayed here</p>-->
-    </div>
 
-    <!-- Extra Space for Button -->
-    <div class="extra-space">
-        <p>Button Goes Here</p>
-    </div>
+</main>
 
-</div>
+<div id="map1"></div>
 
+
+
+
+
+
+
+<script>
+    function goToSection(sectionId) {
+        const sections = document.querySelectorAll('.card');
+        sections.forEach(section => section.style.display = 'none');
+        document.getElementById(sectionId).style.display = 'block';
+
+        const steps = document.querySelectorAll('.step');
+        steps.forEach((step, index) => {
+            if (index <= ['delivery-info', 'select-map', 'payment-section', 'confirmation-section'].indexOf(sectionId)) {
+                step.classList.add('active');
+            } else {
+                step.classList.remove('active');
+            }
+        });
+    }
+</script>
 </body>
 </html>
+

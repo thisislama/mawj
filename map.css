@@ -1,0 +1,270 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', sans-serif;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    margin-top: 0.50em;
+    z-index: -90;
+}
+
+
+.container_check {
+    height: 100vh;
+}
+.horizontal-line {
+    flex-grow: 1;
+    height: 0.03125em;
+    background-color: #34272158;
+}
+
+
+.logo {
+    text-align: center;
+    padding: 0 2.5em;
+    position: relative;
+    top: 0.1875em;
+}
+
+.logo img {
+    width: 12.25em;
+}
+
+
+/* Link */
+.link-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3125em 3.125em;
+    margin-top: -2.1875em;
+}
+
+
+#nav {
+    position: absolute;
+    right: 1.75em;
+    top: 0;
+    height: 3.75em;
+    display: flex;
+    align-items: center;
+    margin-right: 2.6em;
+    margin-left: 2.6em;
+    margin-top: 0.5em;
+    background-color: transparent;
+    width: fit-content;
+}
+
+#nav .button {
+    margin-top: 0;
+    padding: 0.275em 1.1875em;
+    border-radius: 2em;
+    background-color: #FDE9C8;
+    color: #2f231e;
+    font-weight: 400;
+    font-family: 'Bitter', sans-serif;
+    text-decoration: none;
+    border: none;
+}
+
+#nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+
+}
+
+#nav li {
+    position: relative;
+    margin: 0 1em;
+    padding: 7px;
+}
+
+/*
+#nav li .link{
+    height: 3.75em;
+    line-height: 3.75em;
+    font-variation-settings: 'wght' 500;
+    color: #2f231e;
+    font-weight: 400;
+    font-family: 'Bitter', sans-serif;
+    text-decoration: none;
+
+}
+*/
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #f4f2ed !important;
+    color: #2f231e9e;
+}
+
+footer  * {
+    background-color: transparent !important;
+}
+.bottom-bar  * {
+    background-color: transparent !important;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 3.125em;
+    width: 4.375em;
+    height:4.375em;
+
+}
+
+.social-icons li {
+    display: inline;
+    display: flex;
+    align-items: center;
+    color: #2f231e9e;
+    text-decoration: none;
+    margin-top:  0.625em;
+
+}
+
+.social-icons li a img {
+    width: 1.25em;
+    height: 1.25em;
+
+
+}
+
+.contact-us ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 3.125em;
+    margin-top: 0.725em;
+
+}
+
+.contact-us li {
+    margin-bottom:  0.625em;
+    font-size: 0.875em;
+    color: #2f231e9e;
+
+}
+
+.contact-us li a {
+    display: flex;
+    align-items: center;
+    color: #2f231e9e;
+    text-decoration: none;
+    margin-left: 1.875em;
+
+}
+
+.contact-us li img {
+    margin-left: 2.375em;
+    width:1.25em;
+    height: 1.25em;
+}
+
+
+
+
+
+footer h3{
+    margin-top: 3.125em;
+    margin-bottom: 0;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+footer li{
+    margin-bottom: 1.25em;
+}
+
+
+.bottom-bar{
+    background-color: #f4f2ed !important;
+    text-align: center;
+    padding: 0px 0;
+    margin-top: 0px;
+}
+.bottom-bar p{
+    color: #2f231e9e;
+    margin: 0;
+    font-size: 0.790em;
+    padding: 0.4375em;
+}
+
+/*
+#nav .button:hover {
+    background-color: #F8D49D;
+    color: #fff;
+}
+
+
+#nav li .link:hover {
+    color: #F8D49D;
+}
+*/
+nav {
+    background-color: transparent;
+}
+#nav{
+        background-color: transparent;
+}
+
+#nav ul {
+    background-color: transparent;
+}
+
+#login-btn{
+    width:100%;
+    height: 8px;
+    font-size: 14px;
+    border-radius: 22px;
+    background-color: transparent;
+    color: #2f231e;
+    line-height: 0.8em;
+}
+
+#signup-btn {
+    width:100%;
+    height: 19px;
+    font-size: 14px;
+    border-radius: 22px;
+    padding: unset;
+    margin: unset;
+    line-height: 0.8em;
+}
