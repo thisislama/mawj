@@ -46,6 +46,110 @@
 
 
 
+       /* General Styling */
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+
+       /* Ensure images scale properly */
+       img {
+           max-width: 100%;
+           height: auto;
+       }
+
+       /* Header */
+       .header {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 15px;
+           flex-wrap: wrap;
+       }
+
+       .logo-section {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           width: 100%;
+       }
+
+       /* Navigation */
+       nav ul {
+           display: flex;
+           list-style: none;
+           gap: 15px;
+       }
+
+       nav a {
+           text-decoration: none;
+           font-size: 1rem;
+       }
+
+       /* Books Section */
+       .books-container {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+           gap: 15px;
+           padding: 20px;
+           justify-content: center;
+       }
+
+       .bookg {
+           text-align: center;
+       }
+
+       /* Text & About Us Section */
+       .about-us,
+       .new {
+           text-align: center;
+           padding: 20px;
+       }
+
+       .about-us p {
+           font-size: 1rem;
+           line-height: 1.6;
+           max-width: 90%;
+           margin: auto;
+       }
+
+       /* Footer */
+       footer {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           text-align: center;
+           padding: 20px;
+       }
+
+       /* 📌 Mobile Adjustments */
+       @media screen and (max-width: 768px) {
+           .header {
+               flex-direction: column;
+               text-align: center;
+           }
+
+           nav ul {
+               flex-direction: column;
+               gap: 10px;
+           }
+
+           .books-container {
+               grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+           }
+
+           .about-us p {
+               font-size: 0.9rem;
+           }
+
+           footer {
+               flex-direction: column;
+               align-items: center;
+           }
+       }
+
+
 
    </style>
 
