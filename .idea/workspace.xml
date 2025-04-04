@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e880668-fbc8-4026-86e3-88373e76c4bd" name="Changes" comment="required field, delete cart_items when create order_items, creat cart without holding">
-      <change afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mawj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookDetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksDetails/riyal.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nmap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesBD.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesBD.css" afterDir="false" />
-    </list>
+    <list default="true" id="5e880668-fbc8-4026-86e3-88373e76c4bd" name="Changes" comment="zzz" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -281,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743658486276</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="zzz">
+      <option name="closed" value="true" />
+      <created>1743730107959</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1743730107959</updated>
+    </task>
+    <task id="LOCAL-00020" summary="zzz">
+      <option name="closed" value="true" />
+      <created>1743730288696</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1743730288696</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +301,7 @@
     <MESSAGE value="update orderItems" />
     <MESSAGE value="update" />
     <MESSAGE value="required field, delete cart_items when create order_items, creat cart without holding" />
-    <option name="LAST_COMMIT_MESSAGE" value="required field, delete cart_items when create order_items, creat cart without holding" />
+    <MESSAGE value="zzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="zzz" />
   </component>
 </project>
