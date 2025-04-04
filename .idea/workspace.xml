@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e880668-fbc8-4026-86e3-88373e76c4bd" name="Changes" comment="required field, delete cart_items when create order_items, creat cart without holding">
+      <change afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mawj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksDetails/riyal.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesBD.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesBD.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thisislama&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/thisislama/mawj.git",
+    "accountId": "43281142-9e07-47a5-ae7b-fc4becd73fb6"
+  }
+}]]></component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2taW87k6wfZMShdxCNx06GGOTt3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.bookDetail.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "nn",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/zazaw/OneDrive/سطح المكتب/mawj",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zazaw\IdeaProjects\IT320\booksDetails" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bookDetail.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/IT320/bookDetail.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.bookDetail.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e880668-fbc8-4026-86e3-88373e76c4bd" name="Changes" comment="" />
+      <created>1740590503636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740590503636</updated>
+      <workItem from="1740590504828" duration="115000" />
+      <workItem from="1740670049057" duration="584000" />
+      <workItem from="1740670670272" duration="6000" />
+      <workItem from="1740677773161" duration="609000" />
+      <workItem from="1740678565511" duration="661000" />
+      <workItem from="1740683655660" duration="380000" />
+      <workItem from="1740771402416" duration="49000" />
+      <workItem from="1741015397925" duration="141000" />
+      <workItem from="1741131520509" duration="824000" />
+      <workItem from="1741134584785" duration="3422000" />
+      <workItem from="1741277062940" duration="800000" />
+      <workItem from="1741299294448" duration="1460000" />
+      <workItem from="1741366935178" duration="5333000" />
+      <workItem from="1741404664834" duration="11200000" />
+      <workItem from="1742231201803" duration="594000" />
+      <workItem from="1742668702525" duration="100000" />
+      <workItem from="1742668831603" duration="280000" />
+      <workItem from="1742698762544" duration="97000" />
+      <workItem from="1742699234698" duration="904000" />
+      <workItem from="1742926442230" duration="19894000" />
+      <workItem from="1743112629342" duration="5778000" />
+      <workItem from="1743178094050" duration="15270000" />
+    </task>
+    <task id="LOCAL-00001" summary="bookDetails page">
+      <option name="closed" value="true" />
+      <created>1741131799514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741131799514</updated>
+    </task>
+    <task id="LOCAL-00002" summary="bookDetails page">
+      <option name="closed" value="true" />
+      <created>1741134621693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741134621693</updated>
+    </task>
+    <task id="LOCAL-00003" summary="riyal sympol yellowish">
+      <option name="closed" value="true" />
+      <created>1741191436585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741191436585</updated>
+    </task>
+    <task id="LOCAL-00004" summary="..">
+      <option name="closed" value="true" />
+      <created>1741375994758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741375994758</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Book Details">
+      <option name="closed" value="true" />
+      <created>1741454964896</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741454964896</updated>
+    </task>
+    <task id="LOCAL-00006" summary="checkout class">
+      <option name="closed" value="true" />
+      <created>1741455983365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741455983365</updated>
+    </task>
+    <task id="LOCAL-00007" summary="checkout">
+      <option name="closed" value="true" />
+      <created>1741460196328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741460196328</updated>
+    </task>
+    <task id="LOCAL-00008" summary="checkout">
+      <option name="closed" value="true" />
+      <created>1741461013154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741461013154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="::">
+      <option name="closed" value="true" />
+      <created>1741465485550</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741465485550</updated>
+    </task>
+    <task id="LOCAL-00010" summary="::">
+      <option name="closed" value="true" />
+      <created>1743115663404</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743115663404</updated>
+    </task>
+    <task id="LOCAL-00011" summary="::payment table/order table">
+      <option name="closed" value="true" />
+      <created>1743178602273</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743178602273</updated>
+    </task>
+    <task id="LOCAL-00012" summary="::cart table/cart_items table">
+      <option name="closed" value="true" />
+      <created>1743212959300</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743212959300</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update total price and amount">
+      <option name="closed" value="true" />
+      <created>1743221395568</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743221395568</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update cartItems rmv btn and table">
+      <option name="closed" value="true" />
+      <created>1743270568125</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743270568125</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update orderItems">
+      <option name="closed" value="true" />
+      <created>1743469528839</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1743469528839</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <option name="closed" value="true" />
+      <created>1743548538190</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1743548538190</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <option name="closed" value="true" />
+      <created>1743548787522</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1743548787522</updated>
+    </task>
+    <task id="LOCAL-00018" summary="required field, delete cart_items when create order_items, creat cart without holding">
+      <option name="closed" value="true" />
+      <created>1743658486276</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1743658486276</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bookDetails page" />
+    <MESSAGE value="riyal sympol yellowish" />
+    <MESSAGE value=".." />
+    <MESSAGE value="Book Details" />
+    <MESSAGE value="checkout class" />
+    <MESSAGE value="checkout" />
+    <MESSAGE value="::" />
+    <MESSAGE value="::payment table/order table" />
+    <MESSAGE value="::cart table/cart_items table" />
+    <MESSAGE value="update total price and amount" />
+    <MESSAGE value="update cartItems rmv btn and table" />
+    <MESSAGE value="update orderItems" />
+    <MESSAGE value="update" />
+    <MESSAGE value="required field, delete cart_items when create order_items, creat cart without holding" />
+    <option name="LAST_COMMIT_MESSAGE" value="required field, delete cart_items when create order_items, creat cart without holding" />
+  </component>
+</project>
