@@ -13,50 +13,26 @@
    <style>
 
 
-       @media screen and (max-width: 768px) {
-           .header {
-               flex-direction: column;
-               text-align: center;
-           }
-
-           nav ul {
-               display: flex;
-               flex-direction: column;
-               gap: 10px;
-           }
-
-           .books-container {
-               display: flex;
-               flex-wrap: wrap;
-               justify-content: center;
-           }
-
-           .bookg {
-               width: 45%; /* Adjust book images for smaller screens */
-               margin-bottom: 15px;
-           }
-
-           /* Adjust footer for smaller screens */
-           footer {
-               flex-direction: column;
-               align-items: center;
-               text-align: center;
-           }
-       }
-
-
-
-       /* General Styling */
+       /* General Styles */
        * {
            margin: 0;
            padding: 0;
            box-sizing: border-box;
        }
 
+       body {
+           font-family: 'Poppins', sans-serif;
+           line-height: 1.5;
+           text-align: center;
+           overflow-x: hidden;
+       }
+
        /* Ensure images scale properly */
        img {
            max-width: 100%;
            height: auto;
+           display: block;
+           margin: auto;
        }
 
        /* Header */
@@ -64,7 +40,7 @@
            display: flex;
            justify-content: space-between;
            align-items: center;
-           padding: 15px;
+           padding: 15px 20px;
            flex-wrap: wrap;
        }
 
@@ -76,15 +52,71 @@
        }
 
        /* Navigation */
+       nav {
+           width: 100%;
+           text-align: right;
+       }
+
        nav ul {
            display: flex;
+           justify-content: flex-end;
            list-style: none;
-           gap: 15px;
+           gap: 20px;
+           padding-right: 20px;
        }
 
        nav a {
            text-decoration: none;
+           font-size: 1.1rem;
+       }
+
+       /* 📌 Mobile Navigation (Hamburger Menu) */
+       .menu-icon {
+           display: none;
+           font-size: 2rem;
+           cursor: pointer;
+           position: absolute;
+           top: 15px;
+           right: 20px;
+       }
+
+       @media screen and (max-width: 768px) {
+           .menu-icon {
+               display: block;
+           }
+
+           nav ul {
+               display: none;
+               flex-direction: column;
+               background: white;
+               position: absolute;
+               top: 60px;
+               right: 0;
+               width: 100%;
+               text-align: center;
+           }
+
+           nav ul.show {
+               display: flex;
+           }
+       }
+
+       /* Quote Image */
+       .quote img {
+           width: 90%;
+           max-width: 600px;
+           margin: 20px auto;
+       }
+
+       /* About Us */
+       .about-us {
+           padding: 30px;
+       }
+
+       .about-us p {
            font-size: 1rem;
+           max-width: 80%;
+           margin: auto;
        }
 
        /* Books Section */
@@ -93,25 +125,28 @@
            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
            gap: 15px;
            padding: 20px;
-           justify-content: center;
        }
 
-       .bookg {
-           text-align: center;
-       }
-
-       /* Text & About Us Section */
-       .about-us,
-       .new {
-           text-align: center;
-           padding: 20px;
-       }
-
-       .about-us p {
+       .bookg p {
            font-size: 1rem;
-           line-height: 1.6;
-           max-width: 90%;
-           margin: auto;
+       }
+
+       /* 📌 Book Images */
+       .book-left,
+       .book-left2,
+       .book-left3,
+       .book-left4,
+       .book-left5,
+       .book-left6 {
+           width: 45%;
+           max-width: 250px;
+           margin: 10px auto;
+       }
+
+       .open-book {
+           width: 80%;
+           max-width: 500px;
+           margin: 20px auto;
        }
 
        /* Footer */
@@ -123,24 +158,33 @@
            padding: 20px;
        }
 
-       /* 📌 Mobile Adjustments */
-       @media screen and (max-width: 768px) {
-           .header {
-               flex-direction: column;
-               text-align: center;
-           }
+       .footer-section {
+           width: 100%;
+           margin-bottom: 20px;
+       }
 
-           nav ul {
-               flex-direction: column;
-               gap: 10px;
+       /* 📌 Mobile Adjustments */
+       @media screen and (max-width: 480px) {
+           .about-us p {
+               font-size: 0.9rem;
+               max-width: 90%;
            }
 
            .books-container {
                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
            }
 
-           .about-us p {
-               font-size: 0.9rem;
+           .book-left,
+           .book-left2,
+           .book-left3,
+           .book-left4,
+           .book-left5,
+           .book-left6 {
+               width: 100%;
+           }
+
+           .open-book {
+               width: 90%;
            }
 
            footer {
