@@ -39,12 +39,6 @@ body{
     font-size: 16px;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}
-
 
 .book_info2 {
     display: block;
@@ -357,5 +351,42 @@ button:disabled {
     margin-top: 0;
 }
 
+
+@media (max-width: 768px) {
+    .book_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .book_img img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .book_info1, .book_info2 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .book_container button {
+        width: 90%;
+    }
+
+    .container1 {
+        padding: 15px;
+    }
+
+    .step-indicator {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 
 
